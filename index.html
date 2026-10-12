@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Mahi Ugale — Computer Engineering student interested in software engineering, full-stack development, and AI/ML.">
+<title>Mahi Ugale | Portfolio</title>
+<style>
+:root{--bg:#090d18;--panel:#11182a;--panel2:#151e34;--text:#eef2ff;--muted:#aab5ce;--accent:#a78bfa;--blue:#60a5fa;--line:#27324b;--max:1080px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:86px}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#1d1b45 0,transparent 34%),var(--bg);color:var(--text);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}.nav{position:sticky;top:0;z-index:5;background:#090d18eF;backdrop-filter:blur(14px);border-bottom:1px solid #ffffff12}.navin{display:flex;align-items:center;justify-content:space-between;min-height:72px;gap:24px}.brand{font-weight:800;letter-spacing:.02em}.brand span{color:var(--accent)}.links{display:flex;gap:24px;flex-wrap:wrap}.links a{font-size:.92rem;color:var(--muted)}.links a:hover,.contactlink:hover{color:var(--accent)}.hero{padding:100px 0 84px;display:grid;grid-template-columns:1.5fr .7fr;gap:50px;align-items:center}.eyebrow{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:.16em;font-size:.78rem}.hero h1{font-size:clamp(2.7rem,6vw,5rem);line-height:1.05;letter-spacing:-.055em;margin:16px 0}.hero h1 span{background:linear-gradient(100deg,var(--accent),var(--blue));-webkit-background-clip:text;background-clip:text;color:transparent}.hero p{max-width:690px;color:var(--muted);font-size:1.08rem}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:11px 17px;border:1px solid var(--line);border-radius:12px;font-weight:700}.btn.primary{background:linear-gradient(110deg,#7c3aed,#2563eb);border-color:transparent}.monogram{width:min(245px,70vw);aspect-ratio:1;border-radius:32px;display:grid;place-items:center;margin:auto;background:linear-gradient(145deg,#211b4b,#132b4c);border:1px solid #a78bfa55;box-shadow:0 30px 90px #4338ca25;position:relative}.monogram:before{content:"";position:absolute;inset:13px;border:1px solid #ffffff1c;border-radius:23px}.monogram strong{font-size:5rem;letter-spacing:-.09em;color:#ddd6fe}.section{padding:66px 0}.section-head{margin-bottom:28px}.section h2{font-size:clamp(1.8rem,3vw,2.5rem);letter-spacing:-.04em;margin:0 0 8px}.section-head p,.muted{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{background:linear-gradient(150deg,#141d31,#0e1423);border:1px solid var(--line);border-radius:18px;padding:22px}.card h3{margin:0 0 8px;font-size:1.08rem}.card p{color:var(--muted);margin:0}.taglist{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.tag{font-size:.8rem;padding:5px 9px;border:1px solid #3b4260;border-radius:999px;color:#d6dcf2;background:#151a2d}.timeline{border-left:1px solid #454064;padding-left:22px;display:grid;gap:20px}.timeline-item{position:relative}.timeline-item:before{content:"";position:absolute;left:-28px;top:8px;width:10px;height:10px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 5px #a78bfa1a}.timeline-item h3{margin:0}.meta{font-size:.9rem;color:var(--accent);margin:3px 0 8px}.timeline-item p,.timeline-item li{color:var(--muted)}.timeline-item ul{margin:8px 0;padding-left:20px}.certs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.cert{padding:15px 17px;border:1px solid var(--line);border-radius:14px;background:#11182a;color:#e3e8fa}.contactgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.contactlink{display:block;padding:18px;border:1px solid var(--line);border-radius:15px;background:#11182a;overflow-wrap:anywhere}.contactlink small{display:block;color:var(--muted);margin-bottom:5px}.footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:.9rem}.footerin{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.note{color:#8d9ab7;font-size:.88rem;margin-top:20px}
+@media(max-width:760px){.navin{padding:14px 0;align-items:flex-start;flex-direction:column}.links{gap:13px}.hero{padding:65px 0 45px;grid-template-columns:1fr;gap:34px}.monogram{width:170px;grid-row:1}.grid{grid-template-columns:1fr 1fr}.contactgrid,.certs{grid-template-columns:1fr}.section{padding:46px 0}}
+@media(max-width:470px){.grid{grid-template-columns:1fr}.wrap{width:min(var(--max),calc(100% - 28px))}.hero h1{font-size:2.7rem}}
+
+/* === Motion-rich portfolio upgrade === */
+:root{--glow:rgba(139,92,246,.22);--cyan:#67e8f9}
+body{overflow-x:hidden;background:
+  radial-gradient(ellipse at 12% 18%,rgba(91,33,182,.20),transparent 34%),
+  radial-gradient(ellipse at 88% 44%,rgba(37,99,235,.15),transparent 32%),
+  linear-gradient(135deg,#070a13 0%,#0a1020 52%,#080b16 100%)}
+body:before{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;opacity:.24;
+ background-image:linear-gradient(rgba(148,163,184,.09) 1px,transparent 1px),linear-gradient(90deg,rgba(148,163,184,.09) 1px,transparent 1px);
+ background-size:48px 48px;mask-image:linear-gradient(to bottom,black,transparent 88%)}
+.ambient{position:fixed;z-index:-1;pointer-events:none;border-radius:50%;filter:blur(70px);opacity:.22;animation:floatGlow 14s ease-in-out infinite alternate}
+.ambient.one{width:280px;height:280px;left:-100px;top:22%;background:#7c3aed}
+.ambient.two{width:340px;height:340px;right:-130px;top:55%;background:#2563eb;animation-delay:-5s}
+.ambient.three{width:200px;height:200px;right:25%;top:-120px;background:#0891b2;animation-delay:-8s}
+@keyframes floatGlow{from{transform:translate3d(0,-18px,0) scale(.92)}to{transform:translate3d(35px,32px,0) scale(1.12)}}
+.nav{background:rgba(7,10,19,.72);border-bottom:1px solid rgba(167,139,250,.16);box-shadow:0 8px 32px rgba(0,0,0,.12)}
+.brand{font-size:1.12rem}.brand span{display:inline-block;animation:pulseDot 2s infinite}
+@keyframes pulseDot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.55;transform:scale(1.35)}}
+.links a{position:relative;transition:color .25s ease}.links a:after{content:"";position:absolute;left:0;right:100%;bottom:-7px;height:2px;border-radius:3px;background:linear-gradient(90deg,var(--accent),var(--cyan));transition:right .25s ease}
+.links a:hover:after,.links a:focus-visible:after{right:0}
+.hero{min-height:calc(92vh - 72px);position:relative}
+.eyebrow{display:inline-flex;align-items:center;gap:10px}.eyebrow:before{content:"";display:inline-block;width:22px;height:1px;background:linear-gradient(90deg,var(--accent),var(--cyan));box-shadow:0 0 12px var(--accent)}
+.hero h1{animation:heroIn .8s cubic-bezier(.2,.75,.25,1) both}.hero .eyebrow{animation:heroIn .65s .08s both}.hero p{animation:heroIn .8s .16s both}.hero .actions{animation:heroIn .8s .24s both}
+@keyframes heroIn{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+.hero h1 span{background-size:200% 200%;animation:gradientFlow 5s ease infinite}
+@keyframes gradientFlow{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+.monogram{isolation:isolate;box-shadow:0 24px 90px rgba(67,56,202,.25),inset 0 0 35px rgba(103,232,249,.05);animation:monogramFloat 6s ease-in-out infinite;transition:transform .4s ease,border-color .4s ease}
+.monogram:after{content:"";position:absolute;inset:-8px;border-radius:38px;border:1px solid rgba(103,232,249,.18);animation:ringPulse 4s ease-in-out infinite;z-index:-1}
+.monogram strong{text-shadow:0 0 35px rgba(167,139,250,.38);animation:letterGlow 4s ease-in-out infinite}
+@keyframes monogramFloat{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-12px) rotate(1deg)}}
+@keyframes ringPulse{0%,100%{transform:scale(1);opacity:.35}50%{transform:scale(1.045);opacity:.9}}
+@keyframes letterGlow{0%,100%{text-shadow:0 0 18px rgba(167,139,250,.22)}50%{text-shadow:0 0 40px rgba(103,232,249,.38)}}
+.btn{position:relative;overflow:hidden;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.btn:before{content:"";position:absolute;top:-80%;left:-50%;width:35%;height:260%;transform:rotate(25deg);background:rgba(255,255,255,.17);transition:left .55s ease}
+.btn:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(37,99,235,.18);border-color:#7770bd}
+.btn:hover:before{left:130%}.btn.primary{box-shadow:0 8px 26px rgba(99,102,241,.2)}
+.section{position:relative}.section-head{max-width:850px}
+.section h2{transition:letter-spacing .3s ease}.section-head:hover h2{letter-spacing:-.025em}
+.card,.cert,.contactlink{position:relative;isolation:isolate;overflow:hidden;transition:transform .32s cubic-bezier(.2,.75,.25,1),border-color .32s ease,box-shadow .32s ease,background .32s ease}
+.card:before,.cert:before,.contactlink:before{content:"";position:absolute;inset:0;z-index:-1;opacity:0;background:radial-gradient(circle at var(--mx,50%) var(--my,50%),rgba(139,92,246,.18),transparent 58%);transition:opacity .3s ease}
+.card:after{content:"";position:absolute;top:0;left:-120%;width:65%;height:1px;background:linear-gradient(90deg,transparent,var(--cyan),transparent);transition:left .65s ease}
+.card:hover{transform:translateY(-7px);border-color:rgba(167,139,250,.65);box-shadow:0 18px 45px rgba(0,0,0,.24),0 0 24px rgba(124,58,237,.09);background:linear-gradient(150deg,#19233d,#10172a)}
+.card:hover:before,.cert:hover:before,.contactlink:hover:before{opacity:1}.card:hover:after{left:130%}
+.card h3{transition:color .25s ease}.card:hover h3{color:#ddd6fe}
+.tag{transition:transform .22s ease,border-color .22s ease,background .22s ease}.card:hover .tag:hover{transform:translateY(-2px);border-color:var(--cyan);background:#1a2940}
+.cert:hover,.contactlink:hover{transform:translateY(-4px);border-color:rgba(103,232,249,.45);box-shadow:0 14px 32px rgba(0,0,0,.18)}
+.timeline{position:relative}.timeline:before{content:"";position:absolute;left:-1px;top:0;bottom:0;width:1px;background:linear-gradient(transparent,var(--accent),var(--cyan),transparent);transform-origin:top;animation:timelineGlow 5s ease-in-out infinite}
+@keyframes timelineGlow{0%,100%{opacity:.45}50%{opacity:1}}
+.timeline-item:before{transition:box-shadow .3s ease,transform .3s ease}.timeline-item:hover:before{transform:scale(1.35);box-shadow:0 0 0 7px #a78bfa22,0 0 18px #a78bfa99}
+.section.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.75,.25,1)}
+.section.reveal.visible{opacity:1;transform:translateY(0)}
+.card.reveal-child{opacity:0;transform:translateY(18px) scale(.985);transition:opacity .55s ease,transform .55s ease}
+.card.reveal-child.visible{opacity:1;transform:translateY(0) scale(1)}
+.scroll-progress{position:fixed;left:0;top:0;width:100%;height:3px;z-index:20;background:transparent}
+.scroll-progress span{display:block;width:0;height:100%;background:linear-gradient(90deg,#7c3aed,#60a5fa,#67e8f9);box-shadow:0 0 14px rgba(103,232,249,.6)}
+.back-top{position:fixed;right:22px;bottom:22px;z-index:8;width:44px;height:44px;display:grid;place-items:center;border-radius:14px;border:1px solid #a78bfa66;background:rgba(17,24,42,.82);backdrop-filter:blur(12px);color:#fff;opacity:0;pointer-events:none;transform:translateY(10px);transition:opacity .25s ease,transform .25s ease,background .25s ease}
+.back-top.show{opacity:1;pointer-events:auto;transform:translateY(0)}.back-top:hover{background:#30265c;transform:translateY(-3px)}
+.cursor-glow{position:fixed;width:240px;height:240px;border-radius:50%;pointer-events:none;z-index:-1;background:radial-gradient(circle,rgba(96,165,250,.08),transparent 68%);transform:translate(-50%,-50%);opacity:0;transition:opacity .3s ease}
+@media (pointer:fine){.cursor-glow{opacity:1}}
+@media(max-width:760px){.hero{min-height:unset}.ambient{opacity:.14}.cursor-glow{display:none}.section.reveal{transform:translateY(15px)}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.section.reveal,.card.reveal-child{opacity:1;transform:none}}
+
+</style>
+</head>
+<body>
+<div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+<div class="ambient one" aria-hidden="true"></div><div class="ambient two" aria-hidden="true"></div><div class="ambient three" aria-hidden="true"></div><div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+<header class="nav"><div class="wrap navin"><a class="brand" href="#home">MU<span>.</span></a><nav class="links" aria-label="Main navigation"><a href="#about">About</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav></div></header>
+<main>
+<section class="wrap hero" id="home">
+<div><div class="eyebrow">Computer Engineering · AI & Software</div><h1>Hi, I'm <span>Mahi Ugale.</span></h1><p>Computer Engineering student with hands-on experience in Python, Next.js, React, Java, and C. Interested in full-stack development, AI/ML, and building practical software solutions with modern tools, databases, and data-driven applications.</p><div class="actions"><a class="btn primary" href="#projects">Explore my projects ↘</a><a class="btn" href="#contact">Get in touch</a></div></div>
+<div class="monogram" aria-label="Mahi Ugale initials"><strong>MU</strong></div>
+</section>
+<section class="section" id="about"><div class="wrap"><div class="section-head"><div class="eyebrow">A little about me</div><h2>Curious by nature. Builder by practice.</h2><p>I enjoy learning new technologies and applying them to practical problems—from full-stack web applications to AI-powered and data-driven tools. I'm seeking opportunities to contribute to real-world projects and continue developing my software engineering skills.</p></div></div></section>
+<section class="section" id="skills"><div class="wrap"><div class="section-head"><div class="eyebrow">What I work with</div><h2>Skills & tools</h2></div><div class="grid">
+<article class="card"><h3>Programming</h3><p>Languages and core programming foundations.</p><div class="taglist"><span class="tag">Python</span><span class="tag">Java</span><span class="tag">C</span><span class="tag">JavaScript</span></div></article>
+<article class="card"><h3>Web development</h3><p>Building web experiences and interactive apps.</p><div class="taglist"><span class="tag">Next.js</span><span class="tag">React</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Streamlit</span></div></article>
+<article class="card"><h3>AI & data</h3><p>Foundations for data-driven and AI projects.</p><div class="taglist"><span class="tag">Machine Learning</span><span class="tag">Data Analysis</span><span class="tag">NLP</span><span class="tag">AI</span></div></article>
+<article class="card"><h3>Databases</h3><p>Working with structured data and application persistence.</p><div class="taglist"><span class="tag">PostgreSQL</span><span class="tag">Prisma</span><span class="tag">Supabase</span></div></article>
+<article class="card"><h3>Developer tools</h3><p>Everyday tools for building and managing projects.</p><div class="taglist"><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">VS Code</span></div></article>
+</div></div></section>
+<section class="section" id="education"><div class="wrap"><div class="section-head"><div class="eyebrow">Learning journey</div><h2>Education</h2></div><div class="timeline"><div class="timeline-item"><h3>B.Tech — Computer Science & Engineering</h3><div class="meta">2022–2027 · Pillai College of Engineering · New Panvel</div><p>CGPA: 6.29 (up to Semester 6)</p></div></div></div></section>
+<section class="section" id="experience"><div class="wrap"><div class="section-head"><div class="eyebrow">Professional experience</div><h2>Experience</h2></div><div class="timeline"><div class="timeline-item"><h3>Data Science Intern</h3><div class="meta">SprintM Technologies Pvt Ltd · December 2025 – February 2026</div><ul><li>Executed practical data science projects focused on data preprocessing and analysis.</li><li>Applied data visualization and fundamental machine learning techniques to diverse datasets.</li><li>Strengthened analytical thinking and data interpretation through hands-on work.</li></ul></div></div></div></section>
+<section class="section" id="projects"><div class="wrap"><div class="section-head"><div class="eyebrow">Selected work</div><h2>Projects</h2><p>A selection of software, AI, and utility projects.</p></div><div class="grid">
+<article class="card"><h3>College Finder</h3><p>A web application for discovering and managing college information, using a modern Next.js stack and structured database management.</p><div class="taglist"><span class="tag">Next.js</span><span class="tag">React</span><span class="tag">Prisma</span><span class="tag">PostgreSQL</span></div></article>
+<article class="card"><h3>Assistive Communication Application</h3><p>Developing a computer-vision-based application that recognizes sign-language gestures and converts them into text and speech in real time to support accessible communication.</p><div class="taglist"><span class="tag">Python</span><span class="tag">Computer Vision</span><span class="tag">AI</span></div></article>
+<article class="card"><h3>AI API Hub</h3><p>A full-stack platform concept for discovering, testing, and integrating multiple AI APIs through a unified dashboard, with API management and database integration.</p><div class="taglist"><span class="tag">Next.js</span><span class="tag">TypeScript</span><span class="tag">Tailwind CSS</span><span class="tag">Prisma</span><span class="tag">PostgreSQL</span></div></article>
+<article class="card"><h3>Smart File Organizer</h3><p>A Python utility that organizes files into appropriate folders based on file types, improving desktop file management and reducing manual effort.</p><div class="taglist"><span class="tag">Python</span><span class="tag">Automation</span></div></article>
+<article class="card"><h3>Rock vs Mine Identifier</h3><p>A machine-learning model that classifies underwater objects as rocks or mines using dataset-driven classification.</p><div class="taglist"><span class="tag">Python</span><span class="tag">Machine Learning</span></div></article>
+<article class="card"><h3>Roommate Allocator</h3><p>A Python application designed to match users with compatible roommates based on their stated preferences.</p><div class="taglist"><span class="tag">Python</span><span class="tag">Matching logic</span></div></article>
+</div></div></section>
+<section class="section" id="certifications"><div class="wrap"><div class="section-head"><div class="eyebrow">Continuous learning</div><h2>Certifications & learning</h2><p>Courses and modules listed in my resume.</p></div><div class="certs">
+<div class="cert">Google DeepMind — AI Research Foundations: Build Your Own Small Language Model</div>
+<div class="cert">Google DeepMind — Represent Your Language Data</div>
+<div class="cert">Google DeepMind — Design and Train Neural Networks</div>
+<div class="cert">Google DeepMind — Discover the Transformer Architecture</div>
+<div class="cert">Google DeepMind — Fine-Tune Your Model</div>
+<div class="cert">Google DeepMind — Accelerate Your Model</div>
+<div class="cert">Transformer Models and BERT Model</div>
+<div class="cert">Train A Small Language Model</div>
+<div class="cert">Basic Python Programming</div>
+</div></div></section>
+<section class="section" id="contact"><div class="wrap"><div class="section-head"><div class="eyebrow">Let's connect</div><h2>Contact me</h2><p>I'm interested in learning, collaborating, and contributing to meaningful software projects.</p></div><div class="contactgrid">
+<a class="contactlink" href="mailto:mahiugale.mu@gmail.com"><small>Email</small>mahiugale.mu@gmail.com</a>
+<a class="contactlink" href="https://www.linkedin.com/in/mahi-ugale-62464b414/" target="_blank" rel="noopener noreferrer"><small>LinkedIn</small>Connect with me ↗</a>
+<a class="contactlink" href="https://github.com/mahiugalemu-tech" target="_blank" rel="noopener noreferrer"><small>GitHub</small>View my projects ↗</a>
+</div><p class="note">Phone: +91 79770 82197 · Navi Mumbai</p></div></section>
+</main>
+<footer class="footer"><div class="wrap footerin"><span>© <span id="year"></span> Mahi Ugale</span><span>Built with curiosity and a love for technology.</span></div></footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+
+<a class="back-top" id="backTop" href="#home" aria-label="Back to top">↑</a>
+<script>
+(() => {
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const progress = document.getElementById('scrollProgress');
+  const backTop = document.getElementById('backTop');
+  const glow = document.getElementById('cursorGlow');
+  const updateScroll = () => {
+    const max = document.documentElement.scrollHeight - window.innerHeight;
+    progress.style.width = (max > 0 ? (window.scrollY / max) * 100 : 0) + '%';
+    backTop.classList.toggle('show', window.scrollY > 420);
+  };
+  window.addEventListener('scroll', updateScroll, {passive:true});
+  updateScroll();
+
+  if (!reduceMotion && 'IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {threshold:0.12, rootMargin:'0px 0px -35px 0px'});
+    document.querySelectorAll('.section, .card, .cert, .contactlink').forEach(el => {
+      el.classList.add(el.matches('.section') ? 'reveal' : 'reveal-child');
+      observer.observe(el);
+    });
+  } else {
+    document.querySelectorAll('.section,.card,.cert,.contactlink').forEach(el => el.classList.add('visible'));
+  }
+
+  document.querySelectorAll('.card,.cert,.contactlink').forEach(el => {
+    el.addEventListener('pointermove', e => {
+      const r = el.getBoundingClientRect();
+      el.style.setProperty('--mx', ((e.clientX-r.left)/r.width*100)+'%');
+      el.style.setProperty('--my', ((e.clientY-r.top)/r.height*100)+'%');
+    });
+  });
+  if (glow && window.matchMedia('(pointer:fine)').matches && !reduceMotion) {
+    window.addEventListener('pointermove', e => {
+      glow.style.left = e.clientX + 'px';
+      glow.style.top = e.clientY + 'px';
+    }, {passive:true});
+  }
+})();
+</script>
+</body></html>
